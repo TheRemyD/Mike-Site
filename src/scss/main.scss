@@ -1,0 +1,11 @@
+// Abstract Partial contains variables, mixins, functions
+@use 'abstracts';
+// Core contains typography, resets, and boilerplate code used across the whole site
+@use 'core';
+// Components contains styles for all the things like buttons, carousels, tabs, modals...
+// Layout contains the styles needed to control the layout (ie header, nav, footer...)
+@use 'layouts';
+// Pages contains styles specific to a certain pages
+@use 'pages';
+// Sections contains styles for smaller sections/regions/blocks such as Hero or a CTA section
+// If needed include a Vendors which contains all the styles for things like Bootstrap
